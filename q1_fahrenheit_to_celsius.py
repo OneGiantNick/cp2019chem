@@ -1,6 +1,5 @@
 #input in fahrenheit
-fahrenheit = float(input())
-print('Temperature is', fahrenheit, 'F'
+fahrenheit = float(input("Enter temperature in Fahrenheit"))
 #conversion
 celsius = (5/9) * (fahrenheit - 32)
 print('Temperature is', celsius, 'C')
