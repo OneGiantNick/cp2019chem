@@ -1,3 +1,3 @@
-lttr = input()
-ulttr = chr(ord(letter + 32))
+lttr = input('Input capital letter here ')
+ulttr = chr(ord(lttr) + 32)
 print(ulttr)
