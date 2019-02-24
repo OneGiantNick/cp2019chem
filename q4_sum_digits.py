@@ -1,9 +1,7 @@
-num1 = int(input("Enter integer between 1 and 1000"))
-#sum of digits
-if len(num1) = 0:
-    sumdigit = num1[0]
-    elif len(num1) = 1:
-        sumdigit = num1[0] + num1[1]
-        else len(num1) = 2:
-            sumdigit = num1[0] + num1[2] + num1[3]
-print("sum of digits is", sumdigit)
+num1 = int(input("Enter a number:"))
+total = 0
+while num1 > 0:
+    digit = num1 % 10
+    total = total + digit
+    num1 = num1//10
+print("The total sum of digits is:", total)
