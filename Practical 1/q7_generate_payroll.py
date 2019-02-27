@@ -49,5 +49,5 @@ payroll['Net pay'] = net_pay
 
 # Print answer
 print('Payroll statement for ', payroll['Name'])
-for key,value in payroll.items():
-print(payroll)
+for key, value in payroll.items():
+    print(payroll, value)
