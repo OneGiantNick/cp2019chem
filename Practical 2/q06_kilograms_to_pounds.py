@@ -1,6 +1,6 @@
 
 def print_table(x, y):
-    print('K1ilogrammes to pounds conversion table')
+    print('Kilogrammes to pounds conversion table')
     print("---------------------------------------------------------------")
     print("Kilogrammes\t\t\tPounds")
     for i in range(x, y + 1):
