@@ -1,7 +1,10 @@
+import calendar
+c=calendar.TextCalendar(calendar.SUNDAY)
+year=eval(input("Enter year: "))
+month=eval(input("Enter month: "))
+days=0
+for i in c.itermonthdays(year, month):
+    if i!=0:
+        days+=1
 
-from calendar import monthrange
-
-month = int(input("Enter month: "))
-year = int(input("Enter year: "))
-
-print(monthrange(year, month)[1])
+print(days)
